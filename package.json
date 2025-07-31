@@ -1,0 +1,27 @@
+{
+  "name": "typescript_playwrith_academy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinaBrussova/typescript_playwrith_academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinaBrussova/typescript_playwrith_academy/issues"
+  },
+  "homepage": "https://github.com/MartinaBrussova/typescript_playwrith_academy#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  }
+}
