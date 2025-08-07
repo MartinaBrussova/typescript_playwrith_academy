@@ -1,6 +1,6 @@
-//users_management.ts
+console.log("Ahoj TypeScript!");
 
-import { User } from "./user.ts";
+import { User } from "../src/learning/objects/user.ts";
 
 // src/learning/objects
 const adminUser = new User("admin", "admin", 30, "mysak123@seznam.cz");
@@ -12,7 +12,8 @@ adminUser.logUser();
 adminUser.getEmail();
 console.log(adminUser.getEmail());
 
-// const honza = new User("Honza", "Heslo", 27, "honzamalemkralem@seznam.cz");
+const honza = new User("Honza", "Heslo", 27, "honzamalemkralem@seznam.cz");
 
-// honza.logUser();
-// console.log(honza.getEmail());
+honza.logUser();
+console.log(honza.getEmail());
+honza.logUser();

@@ -1,3 +1,3 @@
 console.log("Programujeme v TypeScriptu!");
-const messageTypescript: string = "Ahoj světe!";
+const messageTypescript = "Ahoj světe!";
 console.log(messageTypescript);
